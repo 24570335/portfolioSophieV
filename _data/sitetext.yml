@@ -91,7 +91,7 @@ en: &DEFAULT_EN
 
   footer:
     social:
-      - url: https://linkedin.com
+      - url: https://www.linkedin.com/in/sophie-vuillemin-595844264/
         icon: "fab fa-linkedin-in"
       - url: https://github.com/24570335/portfolioSophieV
         icon: "fab fa-github"
