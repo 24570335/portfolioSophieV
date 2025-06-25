@@ -111,8 +111,10 @@ en: &DEFAULT_EN
     social:
       - url: https://linkedin.com
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
+      - url: https://github.com/24570335/portfolioSophieV
         icon: "fab fa-github"
+      - url: https://linktr.ee/sophie.vuillemin
+        icon: "fab fa-linktree"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
