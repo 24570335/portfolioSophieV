@@ -14,7 +14,7 @@ en: &DEFAULT_EN
     title: Personal Portfolio
     text: Sophie Vuillemin
     button: Take Me To The Projects
-    buttonlink: "#portfolio"
+    buttonlink: "#projects"
 
   introduction:
     title: "Introduction"
