@@ -75,7 +75,7 @@ en: &DEFAULT_EN
     section: skills
 
   contact:
-    title: "Contact Me"
+    title: "Contact"
     # text: "Lorem ipsum or call 123456789"
     section: contact
     name: "Name*"
