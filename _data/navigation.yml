@@ -15,10 +15,10 @@ en: &DEFAULT_EN
       section: introduction
     - title: "Projects"
       section: projects
-    - title: "Skills"
-      section: skills
     - title: "Experience"
       section: experience
+    - title: "Skills"
+      section: skills
     - title: "Contact"
       section: contact
 en-US:
