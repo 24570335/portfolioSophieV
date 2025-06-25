@@ -18,18 +18,8 @@ en: &DEFAULT_EN
 
   introduction:
     title: "Introduction"
-    text: "Lorem ipsum"
+    text: "Hi! I’m a Mechatronics Engineering student at the University of Technology Sydney (UTS), passionate about designing and automating electronic systems. I approach new challenges with a “can-do” mindset and enjoy learning through hands-on projects both in and out of the classroom. At UTS, I’ve developed embedded systems and custom PCBs through coursework, joined the Electric Motorsports Team to work on vehicle electronics, and completed an internship with the Telecom Research Unit focused on signal processing and sensing technologies. I’ve also built a range of personal and professional projects — from a smart handheld pump PCB for a mining company, to step counters and Bluetooth-connected displays for fun at home. This portfolio showcases my journey, highlighting the skills I’ve built and the projects that reflect my passion for Mechatronics Engineering. Thanks for visiting!"
     section: introduction
-    list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
 
   projects:
     title: "Projects"
