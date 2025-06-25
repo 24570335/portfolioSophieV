@@ -14,8 +14,8 @@
 #theme: jekyll-agency
 remote_theme: raviriley/agency-jekyll-theme
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/agency-jekyll-theme-starter" # the subpath of your site, e.g. /blog
+url    : "https://24570335.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/portfolioSophieV" # the subpath of your site, e.g. /blog
 
 title      : Sophie Vuillemin Portfolio
 email      : sophie.l.vuillemin@student.uts.edu.au #this is also the email contact forms will go to
