@@ -12,8 +12,8 @@
     @include heading-font;
   }
   .navbar-brand {
-    color: rgb(190, 212, 244);
-    @include serif-font;
+    color: rgb(255, 255, 255);
+    @include heading-font;
     &.active,
     &:active,
     &:focus,
