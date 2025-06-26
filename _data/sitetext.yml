@@ -37,38 +37,38 @@ en: &DEFAULT_EN
       - title: "Graduated from High School"
         year: "2021"
         desc: "I graduated in 2021 with an ATAR of 98.35!"
-        image: assets/img/experience/1.jpg
-      - title: "Completing my 1st Year at UTS in a Bachelor Science, majoring in Mathematics"
+        image: assets/img/experience/hsc.png
+      - title: "1st Year at UTS in a Bachelor of Science, majoring in Math"
         year: "2022-2023"
         desc: "I enjoyed delving into theoretical matters but towards the end of the year had a change of heart to pursue a more hands on degree instead... Mechatronics!"
-        image: assets/img/experience/2.jpg
-      - title: "Officially a Mechatronics Engineering Student at UTS"
-        year: "2023-[2026]"
+        image: assets/img/experience/scienceBuild.png
+      - title: "Officially starting Mechatronics Engineering at UTS"
+        year: "2023 - [2026]"
         desc: "Delving into my journey as a mechatronics engineer, and insitantly inspired and felt supported by the community around me."
-        image: assets/img/experience/3.jpg
+        image: assets/img/experience/engBuild.png
       - title: "C.A.R.E.E.R Compass Pilot Program"
         year: "2023"
         desc: "The start to C.A.R.E.E.R Compass as well as a personal initiative, HIPPOs started here! With an amazing team we were able to run events for students aiming to bridge the gap between univeristy and industry. In fact, supporitng more portfolios"
-        image: assets/img/experience/4.jpg
+        image: assets/img/experience/compass.png
       - title: "Academic Tutor for Introduction to Mechatronics"
-        year: "2024 August - 2024 November"
+        year: "2024 Aug-Nov"
         desc: "A great chance to test my mechatronics knowledge and help others learn. I really enjoyed the process of teaching and learning from my students, as well as the support I received from the team."
-        image: assets/img/experience/4.jpg
+        image: assets/img/experience/tutor.jpg
       - title: "1st Intership with Robotics Inistitude at UTS"
-        year: "2024 November - 2025 February"
+        year: "2024 Nov-Feb"
         desc: "An amazing opportunity to work hands on, with a real engineering task for BTP. I really loved the process of design iteration and learning so many new PCB skills. I was grateful for the support and team I had, as we were able to deliver a finished product to the client."
-        image: assets/img/experience/4.jpg
+        image: assets/img/experience/BTP.jpg
       - title: "Academic Tutor for Embedded Mechatronics Systems"
-        year: "2025 February - 2025 June"
+        year: "2025 Feb-June"
         desc: "A challenging subject that encouraged me to think of ways to break down difficult concepts into manageable pieces. Also lots of in-class debugging and problem solving that had em on my feet."
-        image: assets/img/experience/4.jpg
+        image: assets/img/experience/stm32.png
       - title: "2nd Intership with Telecom Research Unit at UTS"
-        year: "2025 February - 2025 June"
+        year: "2025 Feb-June"
         desc: "Another really exciting project I could work on was with TRU and their collaboration with Amplitel. I enjoyed devling into telecommunications and image processing solutions. The process of research and findings insights was really rewarding, and I loved the team I worked with."
-        image: assets/img/experience/4.jpg
+        image: assets/img/experience/amplitel.png
         # you can enforce the alignment
         align: right
-    end: "And still pursuing more...!"
+    end: "More to come...!"
  
   skills:
     title: "Skills"
