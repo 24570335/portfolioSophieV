@@ -13,12 +13,13 @@
   }
   .navbar-brand {
     color: rgb(255, 255, 255);
+    text-transform: uppercase;
     @include heading-font;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: rgb(190, 212, 244);
+      color: rgb(255, 255, 255);
     }
   }
   .navbar-nav {
