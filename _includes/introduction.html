@@ -2,18 +2,14 @@
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <section class="page-section" id="{{ site.data.sitetext[site.locale].introduction.section | default: "introduction" }}">
   <div class="container">
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col-md-5 text-center">
         <img src="assets/img/me.jpg" alt="Portrait of Sophie Vuillemin" class="img-fluid rounded-circle" style="max-width: 80%; box-shadow: 0 0 15px rgba(0,0,0,0.1);">
       </div>
 
-      <div class="col-lg-12 text-center">
+      <div class="col-md-7">
         <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].introduction.title | default: "introduction" }}</h2>
         <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].introduction.text | default: "" }}</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
         <div class="large text-muted">{{ site.data.sitetext[site.locale].introduction.body | markdownify }}</div>
       </div>
     </div>
@@ -22,18 +18,13 @@
 {% else %}
 <section class="page-section" id="{{ site.data.sitetext.introduction.section | default: "introduction" }}">
   <div class="container">
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col-md-5 text-center">
         <img src="assets/img/me.png" alt="Portrait of Sophie Vuillemin" class="img-fluid rounded-circle" style="max-width: 80%; box-shadow: 0 0 15px rgba(0,0,0,0.1);">
       </div>
-
-      <div class="col-lg-12 text-center">
+      <div class="col-md-7">
         <h2 class="section-heading text-uppercase">{{ site.data.sitetext.introduction.title | default: "introduction" }}</h2>
         <h3 class="section-subheading text-muted">{{ site.data.sitetext.introduction.text | default: "" }}</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
         <div class="large text-muted">{{ site.data.sitetext.introduction.body | markdownify }}</div>
       </div>
     </div>
