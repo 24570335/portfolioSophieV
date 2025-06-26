@@ -1,18 +1,18 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
-image: assets/img/projects/02-full.jpg
-alt: Keep Exploring
+title: Truss Bridge Design
+subtitle: Mechanical Design
+image: assets/img/projects/bridge.png
+# alt: Keep Exploring
 
 caption:
-  title: Explore
-  subtitle: Graphic Design
-  thumbnail: assets/img/projects/02-thumbnail.jpg
+  title: Truss Bridge Design
+  subtitle: Mechanical Design
+  thumbnail: assets/img/projects/bridge.png
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+As an assignment in University, I was able to pair up with an incredible team and together produce a truss bridge this semester. It underwent many CAD revisions, followed by a cardboard prototype during initial stages. After this, we were able to get our design laser-cut and then proceeded to file and rivet in order to piece the bridge together. The final product was then coated in a spray paint of pink for aesthetically pleasing purposes!
 
 {:.list-inline}
-- Date: January 2017
+- Date: Aug-Nov 2023
 - Client: Explore
 - Category: Graphic Design
 

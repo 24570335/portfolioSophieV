@@ -1,18 +1,18 @@
 ---
-title: Project Threads
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: assets/img/projects/01-full.jpg
-alt: Shirts on a hanger
+title: Autumn 2023 TalkFest
+subtitle: Volunteering
+image: assets/img/projects/talkfest.png
+# alt: Shirts on a hanger
 
 caption:
-  title: Threads
-  subtitle: Illustration
-  thumbnail: assets/img/projects/01-thumbnail.jpg
+  title: Autumn 2023 TalkFest
+  subtitle: Volunteering
+  thumbnail: assets/img/projects/talkfest.png
 ---
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the projects use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+It was a great experience participating in Talkfest as a volunteer for Autumn 2023. Our group of volunteers helped run Talkfest sessions for seven weeks, dedicating two hours every Friday afternoon to create a comfortable environment for international students to practice their English and make friends along the way. I had a great time meeting many lovely students, learning about peoples different experiences and cultures, and growing a strong bond as the weeks went by.
 
 {:.list-inline}
-- Date: January 2017
-- Client: Threads
-- Category: Illustration
+- Date: Feb-June 2023
+<!-- - Client: Threads
+- Category: Illustration -->
 
