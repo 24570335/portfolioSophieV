@@ -78,13 +78,13 @@ en: &DEFAULT_EN
     list:
         - title: "Collaboration"
           desc: "From all my collaborative assignments and Studio subjects, I have developed a strong liking to work in teams and communicate effectively with others."
-          icon: fa-solid fa-people-group
+          icon: fas fa-users
         - title: "Innovation"
-          desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-          icon: fas fa-laptop
+          desc: "One of the most exciting parts in mechatronics to me is the depth of creativyt possible in design. Knowing that the mechanical, electrical and software combo can create anything is great food for thoughts"
+          icon: fas fa-lightbulb
         - title: "Eagerness to Learn"
-          desc: "Your description here, full **Markdown** support"
-          icon: fab fa-markdown
+          desc: "I love learning new things, and I am always looking for ways to improve my skills and knowledge."
+          icon: fab fa-book
 
   contact:
     title: "Contact"
