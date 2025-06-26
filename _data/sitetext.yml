@@ -18,7 +18,7 @@ en: &DEFAULT_EN
 
   introduction:
     title: "Introduction"
-    text: "Hi! I’m a 3rd year Mechatronics Engineering student at the University of Technology Sydney (UTS), passionate about designing and automating electronic systems. I approach new challenges with a “can-do” mindset and enjoy learning through hands-on projects both in and out of university. At UTS, I’ve developed embedded systems and custom PCBs through coursework, joined the Electric Motorsports Team to work on vehicle electronics, and completed an internship with the Telecom Research Unit focused on signal processing and sensing technologies. I’ve also built a range of personal and professional projects, from a smart handheld pump PCB for a mining company, to step counters and Bluetooth-connected displays for fun at home. This portfolio showcases my journey, highlighting the skills I’ve built and the projects that reflect my passion for Mechatronics Engineering. Thanks for visiting!"
+    text: "Hi! I’m a 3rd year Mechatronics Engineering student at the University of Technology Sydney (UTS), passionate about designing and automating electronic systems. I approach new challenges with a “can-do” mindset and enjoy learning through hands-on projects both in and out of university. At UTS, I’ve developed embedded systems and custom PCBs through coursework, joined the Electric Motorsports Team to work on vehicle electronics, and completed an internship with the Telecom Research Unit focused on signal processing and sensing technologies. <br><br> I’ve also built a range of personal and professional projects, from a smart handheld pump PCB for a mining company, to step counters and Bluetooth-connected displays for fun at home. This portfolio showcases my journey, highlighting the skills I’ve built and the projects that reflect my passion for Mechatronics Engineering. Thanks for visiting!"
     section: introduction
 
   projects:
@@ -69,7 +69,7 @@ en: &DEFAULT_EN
         # you can enforce the alignment
         align: right
     end: "And still pursuing more...!"
-
+ 
   skills:
     title: "Skills"
     # text: "our story"
