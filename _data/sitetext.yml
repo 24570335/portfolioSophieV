@@ -18,59 +18,71 @@ en: &DEFAULT_EN
 
   introduction:
     title: "Introduction"
-    text: "Hi! I’m a Mechatronics Engineering student at the University of Technology Sydney (UTS), passionate about designing and automating electronic systems. I approach new challenges with a “can-do” mindset and enjoy learning through hands-on projects both in and out of the classroom. At UTS, I’ve developed embedded systems and custom PCBs through coursework, joined the Electric Motorsports Team to work on vehicle electronics, and completed an internship with the Telecom Research Unit focused on signal processing and sensing technologies. I’ve also built a range of personal and professional projects — from a smart handheld pump PCB for a mining company, to step counters and Bluetooth-connected displays for fun at home. This portfolio showcases my journey, highlighting the skills I’ve built and the projects that reflect my passion for Mechatronics Engineering. Thanks for visiting!"
+    text: "Hi! I’m a 3rd year Mechatronics Engineering student at the University of Technology Sydney (UTS), passionate about designing and automating electronic systems. I approach new challenges with a “can-do” mindset and enjoy learning through hands-on projects both in and out of university. At UTS, I’ve developed embedded systems and custom PCBs through coursework, joined the Electric Motorsports Team to work on vehicle electronics, and completed an internship with the Telecom Research Unit focused on signal processing and sensing technologies. I’ve also built a range of personal and professional projects, from a smart handheld pump PCB for a mining company, to step counters and Bluetooth-connected displays for fun at home. This portfolio showcases my journey, highlighting the skills I’ve built and the projects that reflect my passion for Mechatronics Engineering. Thanks for visiting!"
     section: introduction
 
   projects:
     title: "Projects"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "A collection of projects both personal and professional"
     section: projects
     closebutton: "Close Project"
 
   experience:
     title: "Experience"
-    text: "Lorem ipsum experience"
+    text: "A timeline of my journey"
     section: experience
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Graduated from High School"
+        year: "2021"
+        desc: "I graduated in 2021 with an ATAR of 98.35!"
         image: assets/img/experience/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Completing my 1st Year at UTS in a Bachelor Science, majoring in Mathematics"
+        year: "2022-2023"
+        desc: "I enjoyed delving into theoretical matters but towards the end of the year had a change of heart to pursue a more hands on degree instead... Mechatronics!"
         image: assets/img/experience/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      - title: "Officially a Mechatronics Engineering Student at UTS"
+        year: "2023-[2026]"
+        desc: "Delving into my journey as a mechatronics engineer, and insitantly inspired and felt supported by the community around me."
         image: assets/img/experience/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
+      - title: "C.A.R.E.E.R Compass Pilot Program"
+        year: "2023"
+        desc: "The start to C.A.R.E.E.R Compass as well as a personal initiative, HIPPOs started here! With an amazing team we were able to run events for students aiming to bridge the gap between univeristy and industry. In fact, supporitng more portfolios"
         image: assets/img/experience/4.jpg
-        alt:
+      - title: "Academic Tutor for Introduction to Mechatronics"
+        year: "2024 August - 2024 November"
+        desc: "A great chance to test my mechatronics knowledge and help others learn. I really enjoyed the process of teaching and learning from my students, as well as the support I received from the team."
+        image: assets/img/experience/4.jpg
+      - title: "1st Intership with Robotics Inistitude at UTS"
+        year: "2024 November - 2025 February"
+        desc: "An amazing opportunity to work hands on, with a real engineering task for BTP. I really loved the process of design iteration and learning so many new PCB skills. I was grateful for the support and team I had, as we were able to deliver a finished product to the client."
+        image: assets/img/experience/4.jpg
+      - title: "Academic Tutor for Embedded Mechatronics Systems"
+        year: "2025 February - 2025 June"
+        desc: "A challenging subject that encouraged me to think of ways to break down difficult concepts into manageable pieces. Also lots of in-class debugging and problem solving that had em on my feet."
+        image: assets/img/experience/4.jpg
+      - title: "2nd Intership with Telecom Research Unit at UTS"
+        year: "2025 February - 2025 June"
+        desc: "Another really exciting project I could work on was with TRU and their collaboration with Amplitel. I enjoyed devling into telecommunications and image processing solutions. The process of research and findings insights was really rewarding, and I loved the team I worked with."
+        image: assets/img/experience/4.jpg
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "And still pursuing more...!"
 
   skills:
     title: "Skills"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    # text: "our story"
+    # body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
     section: skills
     list:
-        - title: "E-Commerce"
-          desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-          icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-        - title: "Responsive Design"
+        - title: "Collaboration"
+          desc: "From all my collaborative assignments and Studio subjects, I have developed a strong liking to work in teams and communicate effectively with others."
+          icon: fa-solid fa-people-group
+        - title: "Innovation"
           desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
           icon: fas fa-laptop
-        - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+        - title: "Eagerness to Learn"
           desc: "Your description here, full **Markdown** support"
           icon: fab fa-markdown
 
