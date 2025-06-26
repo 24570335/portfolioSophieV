@@ -84,7 +84,16 @@ en: &DEFAULT_EN
           icon: fas fa-lightbulb
         - title: "Eagerness to Learn"
           desc: "I love learning new things, and I am always looking for ways to improve my skills and knowledge."
+          icon: fas fa-book
+        - title: "Programming Languages"
+          desc: "C++, Python, Java, HTML, CSS, Javascript, Matlab, VHDL"
           icon: fas fa-laptop
+        - title: "Hardware"
+          desc: "Soldering, PCB Design, Circuit Analysis, Microcontrollers (Arduino, STM32), Sensors and Actuators"
+          icon: fas fa-cog
+        # - title: "Problem Solving"
+        #   desc: "W."
+        #   icon: fas fa-laptop
 
   contact:
     title: "Contact"
