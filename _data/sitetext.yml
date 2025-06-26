@@ -84,7 +84,7 @@ en: &DEFAULT_EN
           icon: fas fa-lightbulb
         - title: "Eagerness to Learn"
           desc: "I love learning new things, and I am always looking for ways to improve my skills and knowledge."
-          icon: fab fa-book
+          icon: fas fa-laptop
 
   contact:
     title: "Contact"
