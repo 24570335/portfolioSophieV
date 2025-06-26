@@ -13,12 +13,12 @@
   }
   .navbar-brand {
     color: $primary;
-    @include script-font;
+    @include heading-font;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken($primary, 10%);
+      color: rgb(190, 212, 244);
     }
   }
   .navbar-nav {
