@@ -1,54 +1,64 @@
 <!-- introduction -->
-{% if site.locale and site.locale != "" and site.locale != nil %}
-<section class="page-section" id="{{ site.data.sitetext[site.locale].introduction.section | default: 'introduction' }}">
-{% else %}
-<section class="page-section" id="{{ site.data.sitetext.introduction.section | default: 'introduction' }}">
-{% endif %}
+{% assign intro = site.data.sitetext[site.locale].introduction | default: site.data.sitetext.introduction %}
+<section class="page-section" id="{{ intro.section | default: 'introduction' }}">
   <div class="container">
+
+    <!-- Section heading -->
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase" style="margin-bottom: 2.5rem;">
-          {% if site.locale and site.locale != "" and site.locale != nil %}
-            {{ site.data.sitetext[site.locale].introduction.title | default: "Introduction" }}
-          {% else %}
-            {{ site.data.sitetext.introduction.title | default: "Introduction" }}
-          {% endif %}
+          {{ intro.title | default: "Landing Page" }}
         </h2>
       </div>
     </div>
 
-    <div class="row align-items-center">
-
-      <!-- Photo: full width on mobile, 5 cols on desktop -->
+    <!-- Photo + first two paragraphs -->
+    <div class="row align-items-start mb-4">
       <div class="col-12 col-md-5 text-center mb-4 mb-md-0">
         <img
           src="assets/img/me.png"
           alt="Portrait of Sophie Vuillemin"
           class="img-fluid rounded-circle"
-          style="max-width: 60%; max-width: min(60%, 280px); box-shadow: 0 0 15px rgba(0,0,0,0.1);"
+          style="max-width: min(60%, 280px); box-shadow: 0 0 15px rgba(0,0,0,0.1);"
         >
       </div>
-
-      <!-- Text: full width on mobile, 7 cols on desktop -->
       <div class="col-12 col-md-7 px-4 px-md-3">
-        {% if site.locale and site.locale != "" and site.locale != nil %}
-          <h3 class="section-subheading text-muted text-center text-md-start">
-            {{ site.data.sitetext[site.locale].introduction.text | default: "" }}
-          </h3>
-          <div class="large text-muted">
-            {{ site.data.sitetext[site.locale].introduction.body | markdownify }}
-          </div>
-        {% else %}
-          <h3 class="section-subheading text-muted text-center text-md-start">
-            {{ site.data.sitetext.introduction.text | default: "" }}
-          </h3>
-          <div class="large text-muted">
-            {{ site.data.sitetext.introduction.body | markdownify }}
-          </div>
-        {% endif %}
+        <p class="large text-muted">{{ intro.text }}</p>
+        <p class="large text-muted">{{ intro.text2 }}</p>
       </div>
-
     </div>
+
+    <!-- 4 internship photos -->
+    <div class="row mb-4 g-3">
+      <div class="col-6 col-md-3">
+        <img src="assets/img/experience/BTP.jpg" alt="Robotics Institute"
+          style="width:100%; height:200px; object-fit:cover; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.12);">
+        <p class="text-muted text-center mt-2" style="font-size:0.82rem;">Robotics Institute</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <img src="assets/img/experience/amplitelDesk.png" alt="Telecom Research Unit"
+          style="width:100%; height:200px; object-fit:cover; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.12);">
+        <p class="text-muted text-center mt-2" style="font-size:0.82rem;">Telecom Research Unit</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <img src="assets/img/experience/telecom3d.png" alt="Telecom Research Unit"
+          style="width:100%; height:200px; object-fit:cover; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.12);">
+        <p class="text-muted text-center mt-2" style="font-size:0.82rem;">Centre for Acoustics & Vibration</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <img src="assets/img/experience/pipeAcoustic.png" alt="Centre for Acoustics and Vibration"
+          style="width:100%; height:200px; object-fit:cover; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.12);">
+        <p class="text-muted text-center mt-2" style="font-size:0.82rem;">Mining Sector</p>
+      </div>
+    </div>
+
+    <!-- Closing paragraph -->
+    <div class="row">
+      <div class="col-12 col-md-10 offset-md-1">
+        <p class="large text-muted">{{ intro.text3 }}</p>
+      </div>
+    </div>
+
   </div>
 </section>
 <!-- End introduction -->
