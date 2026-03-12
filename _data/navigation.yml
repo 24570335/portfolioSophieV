@@ -13,6 +13,10 @@ en: &DEFAULT_EN
   nav:
     - title: "About Me"
       section: introduction
+    - title: "Resume + CV"
+      section: resume_cv
+    - title: "Reflections"
+      section: reflection
     - title: "Projects"
       section: projects
     - title: "Experience"

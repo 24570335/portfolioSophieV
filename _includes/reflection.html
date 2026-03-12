@@ -1,0 +1,36 @@
+
+<!-- reflection -->
+{% assign ref = site.data.sitetext[site.locale].reflection | default: site.data.sitetext.reflection %}
+<section class="page-section" id="{{ ref.section | default: 'reflection' }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase" style="margin-bottom: 0.5rem;">
+          {{ ref.title | default: "Reflection" }}
+        </h2>
+        <h3 class="section-subheading text-muted" style="margin-bottom: 2.5rem;">
+          {{ ref.text | default: "" }}
+        </h3>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-8">
+
+        <!-- decorative quote mark -->
+        <div style="font-size: 4rem; line-height: 1; color: #fed136; margin-bottom: -1rem;">&ldquo;</div>
+
+        <p class="large text-muted" style="line-height: 1.85;">
+          {{ ref.para1 }}
+        </p>
+
+        <hr style="border-color: #fed136; border-width: 2px; width: 60px; margin: 2rem auto;">
+
+        <p class="large text-muted" style="line-height: 1.85;">
+          {{ ref.para2 }}
+        </p>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End reflection -->

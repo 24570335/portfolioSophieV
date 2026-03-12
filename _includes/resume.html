@@ -1,0 +1,219 @@
+<!-- _includes/resume.html -->
+<section id="resume">
+  <div class="resume-section-wrap">
+ 
+    <h2 class="section-title">Resume &amp; CV</h2>
+    <p class="section-subtitle">Click between documents to preview. Download links are provided below each viewer.</p>
+ 
+    <!-- Tab buttons -->
+    <div class="doc-tabs" role="tablist">
+      <button class="doc-tab active" role="tab" aria-selected="true" aria-controls="panel-resume" id="tab-resume" onclick="switchTab('resume')">
+        Resume <span class="tab-hint">one page</span>
+      </button>
+      <button class="doc-tab" role="tab" aria-selected="false" aria-controls="panel-cv" id="tab-cv" onclick="switchTab('cv')">
+        CV <span class="tab-hint">full record</span>
+      </button>
+    </div>
+ 
+    <!-- Resume panel -->
+    <div class="doc-panel active" id="panel-resume" role="tabpanel" aria-labelledby="tab-resume">
+      <div class="pdf-viewer-wrap">
+        <div class="pdf-placeholder" id="resume-placeholder">
+          <svg viewBox="0 0 48 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="1" y="1" width="40" height="58" rx="2" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M29 1v12h12" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="8" y1="22" x2="34" y2="22" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="8" y1="30" x2="34" y2="30" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="8" y1="38" x2="24" y2="38" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+          <p>Resume PDF will appear here.</p>
+          <p class="placeholder-hint">Add <code>resume.pdf</code> to your <code>assets/</code> folder.</p>
+        </div>
+        <!-- Uncomment and update src once your PDF is added:
+        <iframe src="{{ site.baseurl }}/assets/resume.pdf" title="Sophie Vuillemin Resume"></iframe>
+        -->
+      </div>
+      <a class="doc-download" href="{{ site.baseurl }}/assets/resume.pdf" download>
+        ↓ Download Resume PDF
+      </a>
+    </div>
+ 
+    <!-- CV panel -->
+    <div class="doc-panel" id="panel-cv" role="tabpanel" aria-labelledby="tab-cv">
+      <div class="pdf-viewer-wrap">
+        <div class="pdf-placeholder" id="cv-placeholder">
+          <svg viewBox="0 0 48 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="1" y="1" width="40" height="58" rx="2" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M29 1v12h12" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="8" y1="22" x2="34" y2="22" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="8" y1="30" x2="34" y2="30" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="8" y1="38" x2="24" y2="38" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+          <p>CV PDF will appear here.</p>
+          <p class="placeholder-hint">Add <code>cv.pdf</code> to your <code>assets/</code> folder.</p>
+        </div>
+        <!-- Uncomment and update src once your PDF is added:
+        <iframe src="{{ site.baseurl }}/assets/cv.pdf" title="Sophie Vuillemin CV"></iframe>
+        -->
+      </div>
+      <a class="doc-download" href="{{ site.baseurl }}/assets/cv.pdf" download>
+        ↓ Download CV PDF
+      </a>
+    </div>
+ 
+  </div>
+</section>
+ 
+<style>
+  .resume-section-wrap {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+  }
+ 
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.4rem;
+  }
+ 
+  .section-subtitle {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+  }
+ 
+  .doc-tabs {
+    display: flex;
+    gap: 0.5rem;
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 1.5rem;
+  }
+ 
+  .doc-tab {
+    background: none;
+    border: none;
+    padding: 0.6rem 1.4rem 0.8rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #888;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.2s;
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+ 
+  .doc-tab .tab-hint {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #aaa;
+  }
+ 
+  .doc-tab.active {
+    color: #222;
+  }
+ 
+  .doc-tab.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #222;
+  }
+ 
+  .doc-tab:hover { color: #222; }
+ 
+  .doc-panel {
+    display: none;
+  }
+ 
+  .doc-panel.active {
+    display: block;
+  }
+ 
+  .pdf-viewer-wrap {
+    width: 100%;
+    height: 680px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fafafa;
+  }
+ 
+  .pdf-viewer-wrap iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+  }
+ 
+  .pdf-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    color: #bbb;
+    text-align: center;
+    padding: 2rem;
+  }
+ 
+  .pdf-placeholder svg {
+    width: 48px;
+    height: 60px;
+    color: #ccc;
+  }
+ 
+  .pdf-placeholder p {
+    font-size: 0.9rem;
+    color: #999;
+    margin: 0;
+  }
+ 
+  .placeholder-hint {
+    font-size: 0.78rem !important;
+    color: #bbb !important;
+  }
+ 
+  .placeholder-hint code {
+    background: #f0f0f0;
+    padding: 0.1em 0.3em;
+    border-radius: 3px;
+    font-size: 0.85em;
+  }
+ 
+  .doc-download {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: #444;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    transition: color 0.2s, border-color 0.2s;
+  }
+ 
+  .doc-download:hover {
+    color: #000;
+    border-color: #000;
+  }
+</style>
+ 
+<script>
+  function switchTab(tab) {
+    document.querySelectorAll('.doc-tab').forEach(function(btn) {
+      btn.classList.remove('active');
+      btn.setAttribute('aria-selected', 'false');
+    });
+    document.querySelectorAll('.doc-panel').forEach(function(panel) {
+      panel.classList.remove('active');
+    });
+    document.getElementById('tab-' + tab).classList.add('active');
+    document.getElementById('tab-' + tab).setAttribute('aria-selected', 'true');
+    document.getElementById('panel-' + tab).classList.add('active');
+  }
+</script>
