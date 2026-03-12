@@ -18,8 +18,24 @@ en: &DEFAULT_EN
 
   introduction:
     title: "About Me"
-    text: "I’m Sophie Vuillemin, a 4th year Mechatronics Engineering student at UTS with a passion for embedded systems, automation and optimising solutions to real-world problems. My goal is to design technology that is both technically rigorous and impactful. <br><br> I have been able to apply this passion to real-world problems – working as an intern with the Robotics Institute, Telecom Research Unit and the Centre for Acoustics and Vibration. I’ve been able to apply my electronic skills for the mining sector, data-driven analysis in telecommunications and Finite Element Analysis modelling in pipes, each role deepening my ability to take complex challenges and adapt to new environments. <br><br> That same drive carries into my own time – I am constantly prototyping projects. From smart-watch step counters, IOS apps and hand-crank to name a few. Beyond hardware, underpinning it all, is a commitment to human-centred design. My experiences in Nepal and leading STEM workshops have shaped my belief that the best engineering solutions must consider the people they serve. My portfolio documents this journey – the skills I am continuously developing and where I am headed next. Thank you for reading and visiting my page."
+    introduction:
+    title: "Landing Page"
+    text: "I'm Sophie Vuillemin, a 4th year Mechatronics Engineering student at UTS with a passion for embedded systems, automation and optimising solutions to real-world problems. My goal is to design technology that is both technically rigorous and impactful."
+    text2: "I have been able to apply this passion to real-world problems – working as an intern with the Robotics Institute, Telecom Research Unit and the Centre for Acoustics and Vibration. I've been able to apply my electronic skills for the mining sector, data-driven analysis in telecommunications and Finite Element Analysis modelling in pipes, each role deepening my ability to take complex challenges and adapt to new environments."
+    text3: "That same drive carries into my own time – I am constantly prototyping projects. From smart-watch step counters, iOS apps and hand-crank generators to name a few. Beyond hardware, underpinning it all, is a commitment to human-centred design. My experiences in Nepal and leading STEM workshops have shaped my belief that the best engineering solutions must consider the people they serve. My portfolio documents this journey – the skills I am continuously developing and where I am headed next. Thank you for reading and visiting my page."
     section: introduction
+
+  resume:
+    title: "Resume & CV"
+    text: "Download or view my documents below"
+    section: resume  
+
+  reflection:
+    title: "Reflection"
+    text: "CAV Internship — Centre for Acoustics and Vibration, UTS"
+    section: reflection
+    para1: "Interning as a Research Engineer at the Centre for Acoustics and Vibration (UTS) reshaped my expectations early. I anticipated the role would demand deep theoretical knowledge of acoustics and dynamics — given the supervisors' highly technical backgrounds, I prepared for a steep learning curve in the mathematics of acoustic response. The reality was more nuanced. The focus shifted toward creating and optimising finite element meshes in COMSOL and post-processing signals in MATLAB, rather than deriving equations from scratch. What I hadn't anticipated was how much the role would stretch my communication skills. Without a structured way to report progress, our weekly meetings were unclear and our supervisors couldn't effectively help us. Introducing visual Powerpoint summaries — logging attempts, successes, failures, and blockers — transformed those sessions. Our supervisors became significantly more engaged and supportive once they could see exactly where we were stuck. That shift was one of the most tangible outcomes of the internship, and one I didn't expect to learn in an engineering role."
+    para2: "What I found most rewarding was working across both mechanical modelling and software-based analysis simultaneously — and realising that intersection is where I want to build my career. Comparing this internship to my previous roles at the Robotics Institute and the Telecom Research Unit clarified something important: I'm drawn to problems that don't sit neatly in one discipline. My value to an employer lies in that ability to move fluidly between mechanical modelling and software tasks — using tools like COMSOL and MATLAB together rather than in isolation. Going forward, I'm working toward a role as a systems or mechatronics engineer in sectors like robotics, industrial automation, or smart infrastructure — fields where hardware and software decisions are deeply interdependent."
 
   projects:
     title: "Projects"
