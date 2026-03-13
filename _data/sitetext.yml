@@ -30,15 +30,15 @@ en: &DEFAULT_EN
     text: "Download or view my documents below"
     section: resume  
 
-  reflection:
+  reflectionPER:
     title: "Reflection"
     text: "CAV Internship — Centre for Acoustics and Vibration, UTS"
     intro: "Interning as a Research Engineer at the Centre for Acoustics and Vibration (UTS) I experienced two key changes in my mindset."
     point1: "The first one stemmed from anticipating the role would require deep theoretical knowledge of acoustics and dynamics given my supervisors' highly technical backgrounds. I mentally prepared for a steep learning curve in the mathematics of acoustics. However, in reality the focus was directed to optimising finite element meshes in COMSOL and post-processing signals in MATLAB with existing functions, rather than deriving equations from scratch and reinventing the wheel. I realised it was very different to my studies that demanded heavy mathematical manipulation."
     point2: "The second realisation I had, was just how critical communication skills would be throughout my role. Without a structured way to report progress, our weekly meetings were initially unclear and our supervisors couldn't effectively help us. Introducing visual Powerpoint summaries, logging attempts, successes, failures, and obstacles, transformed those sessions. Our supervisors became significantly more engaged and supportive once they could see exactly where we were stuck. That shift was one of the most tangible outcomes of the internship, and one I didn't expect to learn in an engineering role."
     closing: "What I found most rewarding was working across both mechanical modelling and software-based analysis simultaneously, I realised that intersection is where I want to build my career. Comparing this internship to my previous roles at the Robotics Institute and the Telecom Research Unit clarified something important: I'm drawn to problems that don't sit in just one discipline. My value to an employer lies in that ability to move adaptively between mechanical modelling, electronics and software tasks, as experienced throughout my internship swapping between tools like COMSOL and MATLAB. Going forward, I'm working toward a role as a systems or mechatronics engineer in sectors like robotics, industrial automation, or smart infrastructure, fields where hardware and software decisions are deeply interconnected."
-    section: reflection
-    
+    section: reflectionPER
+
   projects:
     title: "Projects"
     text: "A collection of projects both personal and professional"
