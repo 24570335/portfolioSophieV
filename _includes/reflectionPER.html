@@ -1,8 +1,8 @@
-
 <!-- reflectionPER -->
 {% assign ref = site.data.sitetext[site.locale].reflectionPER | default: site.data.sitetext.reflectionPER %}
 <section class="page-section" id="{{ ref.section | default: 'reflectionPER' }}">
   <div class="container">
+
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase" style="margin-bottom: 0.5rem;">
@@ -13,24 +13,41 @@
         </h3>
       </div>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-10 col-lg-8">
 
-        <!-- decorative quote mark -->
-        <div style="font-size: 4rem; line-height: 1; color: #fed136; margin-bottom: -1rem;">&ldquo;</div>
-
+    <!-- Image + intro side by side -->
+    <div class="row align-items-center mb-4">
+      <div class="col-12 col-md-5 text-center mb-4 mb-md-0">
+        <img
+          src="{{ site.baseurl }}/assets/img/experience/pipeAcoustic.png"
+          alt="Pipe acoustic modelling at CAV"
+          class="img-fluid"
+          style="border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.13); max-height: 340px; width: 100%; object-fit: cover;">
+      </div>
+      <div class="col-12 col-md-7 px-4 px-md-3">
         <p class="large text-muted" style="line-height: 1.85;">
-          {{ ref.para1 }}
+          {{ ref.intro }}
         </p>
-
-        <hr style="border-color: #fed136; border-width: 2px; width: 60px; margin: 2rem auto;">
-
-        <p class="large text-muted" style="line-height: 1.85;">
-          {{ ref.para2 }}
-        </p>
-
+        <div style="border-left: 3px solid #fed136; padding-left: 1.25rem; margin-bottom: 1.25rem;">
+          <p class="text-muted" style="margin-bottom: 0.25rem; font-weight: 600;">1.</p>
+          <p class="large text-muted" style="line-height: 1.85; margin-bottom: 0;">{{ ref.point1 }}</p>
+        </div>
+        <div style="border-left: 3px solid #fed136; padding-left: 1.25rem;">
+          <p class="text-muted" style="margin-bottom: 0.25rem; font-weight: 600;">2.</p>
+          <p class="large text-muted" style="line-height: 1.85; margin-bottom: 0;">{{ ref.point2 }}</p>
+        </div>
       </div>
     </div>
+
+    <!-- Closing paragraph -->
+    <div class="row">
+      <div class="col-12 col-md-10 offset-md-1">
+        <hr style="border-color: #fed136; border-width: 2px; width: 60px; margin: 0 auto 2rem;">
+        <p class="large text-muted" style="line-height: 1.85;">
+          {{ ref.closing }}
+        </p>
+      </div>
+    </div>
+
   </div>
 </section>
 <!-- End reflectionPER -->

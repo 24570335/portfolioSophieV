@@ -18,8 +18,6 @@ en: &DEFAULT_EN
 
   introduction:
     title: "About Me"
-    introduction:
-    title: "Landing Page"
     text: "I'm Sophie Vuillemin, a 4th year Mechatronics Engineering student at UTS with a passion for embedded systems, automation and optimising solutions to real-world problems. My goal is to design technology that is both technically rigorous and impactful."
     text2: "I have been able to apply this passion to real-world problems – working as an intern with the Robotics Institute, Telecom Research Unit and the Centre for Acoustics and Vibration. I've been able to apply my electronic skills for the mining sector, data-driven analysis in telecommunications and Finite Element Analysis modelling in pipes, each role deepening my ability to take complex challenges and adapt to new environments."
     text3: "That same drive carries into my own time – I am constantly prototyping projects. From smart-watch step counters, iOS apps and hand-crank generators to name a few. Beyond hardware, underpinning it all, is a commitment to human-centred design. My experiences in Nepal and leading STEM workshops have shaped my belief that the best engineering solutions must consider the people they serve. My portfolio documents this journey – the skills I am continuously developing and where I am headed next. Thank you for reading and visiting my page."
@@ -32,7 +30,7 @@ en: &DEFAULT_EN
 
   reflectionPER:
     title: "Reflection"
-    text: "CAV Internship — Centre for Acoustics and Vibration, UTS"
+    text: "CAV Internship (Centre for Acoustics and Vibration) UTS"
     intro: "Interning as a Research Engineer at the Centre for Acoustics and Vibration (UTS) I experienced two key changes in my mindset."
     point1: "The first one stemmed from anticipating the role would require deep theoretical knowledge of acoustics and dynamics given my supervisors' highly technical backgrounds. I mentally prepared for a steep learning curve in the mathematics of acoustics. However, in reality the focus was directed to optimising finite element meshes in COMSOL and post-processing signals in MATLAB with existing functions, rather than deriving equations from scratch and reinventing the wheel. I realised it was very different to my studies that demanded heavy mathematical manipulation."
     point2: "The second realisation I had, was just how critical communication skills would be throughout my role. Without a structured way to report progress, our weekly meetings were initially unclear and our supervisors couldn't effectively help us. Introducing visual Powerpoint summaries, logging attempts, successes, failures, and obstacles, transformed those sessions. Our supervisors became significantly more engaged and supportive once they could see exactly where we were stuck. That shift was one of the most tangible outcomes of the internship, and one I didn't expect to learn in an engineering role."
