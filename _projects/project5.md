@@ -8,6 +8,7 @@ caption:
   title: FSAE Competition 
   subtitle: Engineering
   thumbnail: assets/img/projects/motors.png
+  description: Attended the Melbourne FSAE competition, gaining exposure to cross-university electric vehicle engineering.
 ---
 The FSAE competition in Melbourne 2023 was an incredible opportunity to see the efforts of many engineers from many universities join together to race cars designed with unique and intelligent features. Hearing about the designs that other teams incorporated from the way they wired their electrical looms, to how many motors they included, to which type of motor controller they purchased were all very enlightening questions which made me appreciate the diversity that student teams could reach despite a uniform set of FSAE rules to follow.
 

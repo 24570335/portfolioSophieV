@@ -8,6 +8,7 @@ caption:
   title: Leading GPN Classroom
   subtitle: Volunteering
   thumbnail: assets/img/projects/gpn.png
+  description: Co-led games, tutoring sessions, and a mentorship hangout for high school students.
 ---
 In the morning I was assigned to running morning games, where it's important to create a welcoming and fun environment for the kids just walking in. It is very insightful for myself to learn what's the best way of managing a group that is constantly expanding, as well as keeping them entertained. However, very quickly it becomes natural and the kids introduce themselves to each other and have big smiles on their faces.
 

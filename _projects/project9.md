@@ -8,6 +8,7 @@ caption:
   title: Embedded Mechatronics Studio - Filters
   subtitle: Embedded Systems
   thumbnail: assets/img/projects/filters.png
+  description: Researched and built a low-pass filter PCB subcircuit for a step-counter, testing it against simulated results.
 ---
 Currently in the process of making a step-counter PCB for my subject in my first semester of my third year. It has been a great experience to research topics I am passionate about: electronics. From recapping the basics of RC circuits to learning about low pass filters, simulating and being able to test it, it has been a great learning experience.
 

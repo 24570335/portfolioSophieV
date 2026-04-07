@@ -8,6 +8,7 @@ caption:
   title: RTSA University Challenge
   subtitle: Engineering
   thumbnail: assets/img/projects/rtsa.png
+  description: Proposed OLED seat-availability displays for trains at Arup's headquarters in a judged industry challenge.
 ---
 Applying for the RTSA University Challenge. Our team was chosen to attend the three sessions at Arup's headquarters located in Sydney's CBD. Over these three sessions we will be able to network with industry professionals as well as hold a presentation to relay our creative insights to creative additions in the rail industry
 

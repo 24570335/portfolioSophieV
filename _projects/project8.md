@@ -8,6 +8,7 @@ caption:
   title: Stage 2 IntelliForce Tooling project
   subtitle: Internship
   thumbnail: assets/img/projects/intelli.png
+  description: Designed hydraulic tooling safety features during an internship, applying CAD and embedded systems skills.
 ---
 Over the past few months, I’ve had the incredible opportunity to contribute to the Stage 2 IntelliForce Tooling project, focusing on innovative hydraulic tooling safety and usability design.
 
