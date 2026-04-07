@@ -22,6 +22,9 @@
         <div class="projects-caption">
           <h4>{{ project.caption.title }}</h4>
           <p class="text-muted">{{ project.caption.subtitle }}</p>
+          {% if project.caption.description %}
+          <p class="text-muted small">{{ project.caption.description }}</p>
+          {% endif %}
         </div>
       </div>
 	{% endfor %}
@@ -55,6 +58,7 @@
           <p class="text-muted small">{{ project.caption.description }}</p>
           {% endif %}
         </div>
+      </div>
 	{% endfor %}
     </div>
   </div>
